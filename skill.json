@@ -1,0 +1,22 @@
+{
+  "name": "technical-documentation-writer-agent-skill",
+  "description": "Technical Documentation Writer Agent Skill. Analyzes codebase modules, extracts function signatures and docstrings, and compiles clean, comprehensive Markdown API documentation.",
+  "version": "1.0.0",
+  "author": "alphaparkinc",
+  "inputs": {
+    "source_code": {
+      "type": "string"
+    },
+    "output_format": {
+      "type": "string",
+      "enum": ["markdown", "rst", "html"],
+      "default": "markdown"
+    }
+  },
+  "outputs": {
+    "generated_documentation": {
+      "type": "string"
+    }
+  },
+  "prompt": "You are a technical writer agent. Your objective is to parse functions, classes, and methods from source code, format parameter arguments and return values, and generate detailed developer references."
+}
