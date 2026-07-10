@@ -1,15 +1,19 @@
 {
   "name": "technical-documentation-writer-agent-skill",
-  "description": "Technical Documentation Writer Agent Skill. Analyzes codebase modules, extracts function signatures and docstrings, and compiles clean, comprehensive Markdown API documentation.",
+  "description": "GenPark AI Agent Skill - Technical Documentation Writer Agent Skill. Analyzes codebase modules, extracts function signatures and docstrings, and compiles clean, comprehensive Markdown API documentation.",
   "version": "1.0.0",
-  "author": "alphaparkinc",
+  "author": "genpark",
   "inputs": {
     "source_code": {
       "type": "string"
     },
     "output_format": {
       "type": "string",
-      "enum": ["markdown", "rst", "html"],
+      "enum": [
+        "markdown",
+        "rst",
+        "html"
+      ],
       "default": "markdown"
     }
   },
