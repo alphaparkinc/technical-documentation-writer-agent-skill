@@ -1,4 +1,4 @@
-# technical-documentation-writer-agent-skill
+# genpark-technical-documentation-writer-agent-skill
 
 > **GenPark AI Agent Skill** -- # Technical Documentation Writer Agent Skill
 
