@@ -1,5 +1,5 @@
 {
-  "name": "technical-documentation-writer-agent-skill",
+  "name": "genpark-technical-documentation-writer-agent-skill",
   "description": "GenPark AI Agent Skill - Technical Documentation Writer Agent Skill. Analyzes codebase modules, extracts function signatures and docstrings, and compiles clean, comprehensive Markdown API documentation.",
   "version": "1.0.0",
   "author": "genpark",
